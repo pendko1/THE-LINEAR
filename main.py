@@ -34,7 +34,7 @@ fig, ax = plt.subsplot()
 ax.scatter (x, y, label=f'diem aja bersantai {input_region} 1997-2025', color = 'blue')
 ax.plot(X, model.predict(x), color ='red', label="gataulah")
 
-ax.scatter([input_year], [prediction], color='green', label=f 'pred thn 26{input_year}')
+ax.scatter([input_year], [prediction], color='green', label=f'pred thn 26{input_year}')
 
 ax.set_xlabel("Tahun")
 ax.set_ylabel("Gaji")
