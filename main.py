@@ -30,7 +30,7 @@ st.metric( label=f'Prediksi Gaji di Provinsi {input_region} di Tahun {input_year
 
 st.subheader("Graph hooh")
 
-fig, ax = plt.subsplot()
+fig, ax = plt.subplots()
 ax.scatter (x, y, label=f'diem aja bersantai {input_region} 1997-2025', color = 'blue')
 ax.plot(X, model.predict(x), color ='red', label="gataulah")
 
